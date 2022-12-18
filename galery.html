@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utm-8" />
+<title>Кованые ворота</title>
+<link href="style.css" rel="stylesheet">
+<style type="text/css">
+body {
+padding-right:0px;}
+.video {
+height: 600px;
+}
+</style>
+</head>
+<body>
+<div class="top2">
+<div class="banner">
+<p>КОВАНЫЕ ЖЕЛЕЗНЫЕ ВОРОТА</p>
+</div>
+<div class="top">
+<div class="log">
+<img src="logotip.jpg" alt="логотип" width="100px" border="1px">
+</div>
+<div class="menu" background-color="pink">
+<a href="index.html">Главная</a>
+<a href="catalog.html">Каталог</a>
+<a href="galery.html"><strong>Галерея</strong></a>
+<a href="me.html">О нас</a>
+<a href="contact.html">Контакты</a>
+</div>
+<div id="clock">
+<script>
+window.onload = function() {
+window.setInterval(function(){
+var date = new Date();
+var hours = date.getHours();
+var minutes = date.getMinutes();
+var seconds = date.getSeconds();
+if (hours < 10) hours = "0" + hours;
+if (minutes < 10) minutes = "0" + minutes;
+if (seconds < 10) seconds = "0" + seconds;
+var clock = hours + ":" + minutes + ":" + seconds;
+document.getElementById ("clock").innerHTML = clock;
+},1000);
+};
+</script>
+</div>
+</div>
+<hr>
+<div class="zona">
+<center>
+<center><video controls poster="slade1.jpg" src="video1.mp4" width="1000px"></video></center>
+</div>
+</div>
+<hr>
+<div class="footer">
+<p><center>Россия, г.Самара, ул.Ключевая,100   Tel/Fax: 021/021021021 E-mail:office@firma.ru</center></p>
+</div>
+</body>
+</html>
