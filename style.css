@@ -1,0 +1,72 @@
+body {
+margin: 0px -10px 0px;
+padding-left: 20px;
+width: 1000px;
+height: 700px;
+display:flex;
+flex-direction: column;
+font-family: Arial;
+}
+.banner {
+font-style: italic;
+font-weight:bolder;
+}
+hr {
+width: 1000px;
+color:black;
+align: left;
+}
+.top {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+a {
+color: black;
+text-decoration: none;
+display: blok;
+}
+.top2 {
+flex: 1 0 auto;
+}
+.footer {
+flex-shrink: 0;
+}
+.text2 {
+text-align: justify;
+padding-left: 20px;
+padding-right: 20px;
+}
+.text2 p {
+text-indent: 30px;
+}
+.adress {
+width: 400px;
+height: 440px;
+margin-left:50px;
+}
+.zonak {
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+.izo {
+padding-left :50px;
+padding-top: 50px;
+}
+li {
+width: 250px;
+height: 150px;
+border: 3px;
+margin-left: 50px;
+margin-bottom: 50px;
+box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+}
+.photo {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+ul{
+list-style: none;
+}
