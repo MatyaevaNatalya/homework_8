@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utm-8" />
+<title>Кованые ворота</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="top2">
+<div class="banner">
+<p>КОВАНЫЕ ЖЕЛЕЗНЫЕ ВОРОТА</p>
+</div>
+<div class="top">
+<div class="log">
+<img src="logotip.jpg" alt="логотип" width="100px" border="1px">
+</div>
+<div class="menu" background-color="pink">
+<a href="index.html">Главная</a>
+<a href="catalog.html"><strong>Каталог</strong></a>
+<a href="galery.html">Галерея</a>
+<a href="me.html">О нас</a>
+<a href="contact.html">Контакты</a>
+</div>
+<div id="clock">
+<script>
+window.onload = function() {
+window.setInterval(function(){
+var date = new Date();
+var hours = date.getHours();
+var minutes = date.getMinutes();
+var seconds = date.getSeconds();
+if (hours < 10) hours = "0" + hours;
+if (minutes < 10) minutes = "0" + minutes;
+if (seconds < 10) seconds = "0" + seconds;
+var clock = hours + ":" + minutes + ":" + seconds;
+document.getElementById ("clock").innerHTML = clock;
+},1000);
+};
+</script>
+</div>
+</div>
+<hr>
+<div class="zona">
+<p><center>Каталог</center></p>
+<ul class="photo">
+<li> <img src ="image/kadr1.jpg" alt="фото"</li>
+<li> <img src ="image/kadr2.jpg" alt="фото"</li>
+<li> <img src ="image/kadr3.jpg" alt="фото"</li>
+<li> <img src ="image/kadr4.jpg" alt="фото"</li>
+<li> <img src ="image/kadr5.jpg" alt="фото"</li>
+<li> <img src ="image/kadr6.jpg" alt="фото"</li>
+<li> <img src ="image/kadr7.jpg" alt="фото"</li>
+<li> <img src ="image/kadr8.jpg" alt="фото"</li>
+<li> <img src ="image/kadr9.jpg" alt="фото"</li>
+</ul>
+</div>
+</div>
+<hr>
+<div class="footer">
+<p><center>Россия, г.Самара, ул.Ключевая,100   Tel/Fax: 021/021021021 E-mail:office@firma.ru</center></p>
+</div>
+</body>
+</html>
